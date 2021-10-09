@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpeedCoding</title>
     <style type="text/css" media="screen">
-        #editor { 
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
+        #editor {
+            position: relative;
+            height: 200px;
+            width: 400px;
         }
     </style>
 </head>
+
 <body>
+    <br>
+    <br>
     <div id="editor">function foo(items) {
         var x = "All this is syntax highlighted";
         return x;
-    }</div>
+        }</div>
+    <br>
+
     <button>Submit</button>
-        
-    <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+
+
+    <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
     <script>
         var editor = ace.edit("editor");
         editor.setTheme("ace/theme/monokai");
         editor.session.setMode("ace/mode/javascript");
     </script>
 </body>
+
 </html>
