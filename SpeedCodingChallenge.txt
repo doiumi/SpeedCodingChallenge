@@ -1,0 +1,21 @@
+1)cube
+return x*x*x;
+2)multiplierCount
+return Math.floor(x/y);
+3)removeAllSpaces
+return x.replaceAll(" ","")
+4)getHalfArray
+return x.splice(0,Math.ceil(x.length / 2))
+5)replaceSpaces
+return x.replaceAll(" ", "%20")
+6)squareRoot
+return Math.sqrt(x)
+7)reverseString
+return x.split("").reverse().join("");
+8)averageArray
+const arrAvg = arr => arr.reduce((a,b) => a + b, 0) / arr.length;
+return arrAvg(x);
+9)matchingType
+return typeof(x) === typeof(y);
+10)arrayToObject
+return Object.fromEntries(x);
