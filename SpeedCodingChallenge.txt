@@ -1,5 +1,10 @@
-1)cube
-return x*x*x;
+box.cube = function cube (x) {
+    // x is a number
+    // return x cubed
+    // (ex. x=3, return 27)
+    return x*x*x;
+  };
+
 2)multiplierCount
 return Math.floor(x/y);
 3)removeAllSpaces
@@ -14,8 +19,70 @@ return Math.sqrt(x)
 return x.split("").reverse().join("");
 8)averageArray
 const arrAvg = arr => arr.reduce((a,b) => a + b, 0) / arr.length;
-return arrAvg(x);
+return Math.ceil(arrAvg(x));
 9)matchingType
 return typeof(x) === typeof(y);
 10)arrayToObject
 return Object.fromEntries(x);
+box.findUniqueNumber = function findUniqueNumber(x) {
+    // x is a array of numbers
+    // return a number
+    // (ex. x=[1,1,2,4,2,4,3] you should return 3)
+    
+  };
+  box.numberRepresentation = function numberRepresentation(arr) {
+    // arr is an array
+    // return a number
+    // (ex. arr=[b,a,a,a,c,b,a] you should return 421 where 4 represents 'a' occurences, 2 for 'b', etc..) 
+    
+  }
+  box.reverseCase = function reverseCase(x) {
+    // x is a string
+    // return a string
+    // (ex. str="Toptal" you should return "tOPTAL")
+    
+  };
+  box.monthToString = function monthToString(x) {
+    // x is a number
+    // return a string
+    // (ex. x=1, you should return "Jan")
+    
+  };
+  box.numberOfCircles = function numberOfCircles(x) {
+    // x is a number
+    // return a number
+    // (ex. x=1908, you should return 4)
+    // (ex. x=9 you should return 1)
+    
+  };
+  box.binaryToNumber = function binaryToNumber(x) {
+    // x is a binary number.
+    // return a number
+    // (ex. x=1001, you should return 9)
+    
+  };
+  box.countUniqueNumbers = function countUniqueNumbers(x) {
+    // x is an array of numbers
+    // return a number
+    // (ex. x=[1,2,2,2,3,4,20,3] you should return 5 as we have 1,2,3,4,20)
+    
+  };
+  box.charCountInString = function charCountInString(x, y) {
+    // x is a string of 1 character
+    // y is a string
+    // return a number
+    // (ex. x='$', y="$he$llo$$$wo$rld", should return 6),
+    
+  }
+  box.reverseAllWords = function reverseAllWords(x) {
+    // x is a string
+    // return a string
+    // (ex. x="Hello from Toptal", you should return "olleH morf latpoT")
+    
+  };
+  box.twoArrayAvg = function twoArrayAvg(x, y) {
+    // x and y are arrays of numbers
+    // return a number
+    // (ex. x=[1,2,3],  y=[4,5,6], you should return 3.5)
+    
+  };
