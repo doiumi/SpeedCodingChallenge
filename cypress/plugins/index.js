@@ -16,7 +16,13 @@
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
+const { GitHubSocialLogin } = require('cypress-social-logins').plugins
+
+
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  on('task', {
+    GitHubSocialLogin: GitHubSocialLogin,
+  })
 }

@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/doiumi/SpeedCodingChallenge#readme",
   "devDependencies": {
-    "cypress": "^8.5.0"
-  }
+    "cypress": "^8.5.0",
+    "cypress-social-logins": "^1.11.3"
+  },
+  "test:e2e:open": "cypress open",
+  "test:e2e:run": "cypress run"
 }
